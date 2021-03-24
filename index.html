@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> 🧡 Aditi's Portfolio</title>
+</head>
+<body>
+    <table cellspacing="20">
+        <tr>
+    <td><img src="iimg3.jpeg" alt="Image" height="300px"width="300px"></td>
+   <td> <h1>Aditi Shree</h1>
+    <p><em> Upcoming Full Stack Developer <strong></em> </p>
+    <p>I am Frontend web Developer . I 🧡 reading holy books.</p></td>
+        </tr>
+    </table>
+    <hr>
+    <style>
+        table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+    </style>
+    <table style="width:50%">
+        
+        <h3>Education</h3> 
+       
+        <tr>
+           
+          <th>Education</th>
+          <th>Institution</th>
+          <th>Marks</th>
+        </tr>
+        <tr>
+          <td>Btech </td>
+          <td>Bengal college of engineering and technology</td>
+          <td>last sem - 8.7ygpa</td>
+        </tr>
+        <tr>
+          <td>Class 12</td>
+          <td>Notre dame academy , Jamalpur</td>
+          <td>76.02%</td>
+        </tr>
+        <tr>
+            <td>Class 10</td>
+            <td>Notre dame academy , Munger</td>
+            <td>9.4cgpa</td>
+          </tr>
+      </table>
+
+    
+    <h3> My Hobbies</h3>
+    <ol>
+        <li> <a href="#"> Painting</a></li>
+        <li><a href="#"> Danching</a></li>
+        <li> Listening Music</li>
+    </ol>
+    <a download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Download Cheatsheet</a>
+    <hr>
+
+    
+    
+
+<h3>Skills</h3>
+        <table cellspace="10" border="1px">
+          <tr>
+            <td>HTML </td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>CSS</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Video-Editing</td>
+            <td>⭐⭐⭐⭐</td>
+            <td>Java</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+        </table>
+
+    
+      <hr>
+
+      <caption><h3>Feedback Form</h3></caption>
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="18"
+            max="23"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <p>Which Year are you currently studying?</p>
+          <select id="dropdown" name="year" class="form-control" required>
+            <option disabled selected value>Select current year</option>
+            <option value="first">First Year</option>
+            <option value="secondr">Second Year</option>
+            <option value="third">Third Year</option>
+            <option value="fourth">Fourth Year</option>
+          </select>
+        </div>
+        
+       
+        <div class="form-group">
+          <p>
+            What is your hobbies or interest?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+    
+          <label
+            ><input
+              name="prefer"
+              value="front-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Front-end Projects</label
+            >
+          <label>
+            <input
+              name="prefer"
+              value="back-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Back-end Projects</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="android-development"
+              type="checkbox"
+              class="input-checkbox"
+            />Android Development</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="video-editing"
+              type="checkbox"
+              class="input-checkbox"
+            />Video Editing</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="web-developer"
+              type="checkbox"
+              class="input-checkbox"
+            />Web Developer</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="content-creator"
+              type="checkbox"
+              class="input-checkbox"
+            />Content Creator</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="wiki-manager"
+              type="checkbox"
+              class="input-checkbox"
+            />Wiki Manager</label
+            >
+          <label
+            ><input
+              name="prefer"
+              value="coding-in-a-specifc-language"
+              type="checkbox"
+              class="input-checkbox"
+            />Coding in a Specifc Language</label>
+        </div>
+     <div class="form-group">
+          <p>Anything more about you?(Simple Bio)</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your bio here..."
+          ></textarea>
+        </div>
+    
+    <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+</body>
+</html>
